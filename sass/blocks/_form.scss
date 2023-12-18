@@ -1,0 +1,35 @@
+.input {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+    border: none;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+.input:focus {
+    outline: none;
+    background: rgba(0, 0, 0, 1);
+}
+
